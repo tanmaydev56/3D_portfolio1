@@ -7,6 +7,10 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import CanvasLoader from '../Loader'
 const Earth = () => {
   
+<<<<<<< HEAD
+=======
+
+>>>>>>> f9aa25eca9269da3c463648b436c1a3ec37be03c
   const gltf = useLoader(GLTFLoader, 'public/planet/scene.gltf')
 
 
