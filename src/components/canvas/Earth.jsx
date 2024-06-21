@@ -7,7 +7,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import CanvasLoader from '../Loader'
 const Earth = () => {
   
-  const gltf = useLoader(GLTFLoader, 'src/public/planet/scene.gltf')
+  const gltf = useLoader(GLTFLoader, 'public/planet/scene.gltf')
 
 
 return (
