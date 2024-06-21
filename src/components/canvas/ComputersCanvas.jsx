@@ -8,7 +8,7 @@ import Loader from "../Loader"; // Ensure Loader is correctly defined
 const Computers = ({ isMobile }) => {
 
   // Use absolute path for production
-  const gltf = useLoader(GLTFLoader, 'public/desktop_pc/scene.gltf');
+  const gltf = useLoader(GLTFLoader, '/desktop_pc/scene.gltf');
 
 
   // Return the mesh
