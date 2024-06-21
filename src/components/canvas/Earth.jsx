@@ -1,19 +1,20 @@
 
 import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
-import { OrbitControls, Preload, useGLTF } from '@react-three/drei'
-
+import { OrbitControls, Preload } from '@react-three/drei'
+import { useLoader } from '@react-three/fiber'
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import CanvasLoader from '../Loader'
 const Earth = () => {
   
+  const gltf = useLoader(GLTFLoader, 'src/public/planet/scene.gltf')
 
 
-const {scene} = useGLTF('src/public/planet/scene.gltf')
 return (
 
 
 <primitive
-  object={scene}
+  object={gltf.scene}
   scale={2.5}
   position-y={0}
   rotation-y={0}
