@@ -6,14 +6,10 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import Loader from "../Loader"; // Ensure Loader is correctly defined
 
 const Computers = ({ isMobile }) => {
-<<<<<<< HEAD
+
   // Use absolute path for production
   const gltf = useLoader(GLTFLoader, 'public/desktop_pc/scene.gltf');
-=======
-// Load the GLTF model
-const gltf = useLoader(GLTFLoader, '/desktop_pc/scene.gltf')
- 
->>>>>>> 49b3414328c840f71d5679f39829f46e6407b0ff
+
 
   // Return the mesh
   return (
@@ -79,8 +75,7 @@ const ComputersCanvas = () => {
 };
 
 export default ComputersCanvas;
-<<<<<<< HEAD
-=======
+
 // so agar hum computer canvas me <Suspense fallback={<CanvasLoader/>}> ese likhenge toh div not found wala error hoga toh we need to
 // use fallback={<Html center>Loading...</Html>} this one ya fir canvas loader me html element render kardo jesa abh ha
->>>>>>> 49b3414328c840f71d5679f39829f46e6407b0ff
+
