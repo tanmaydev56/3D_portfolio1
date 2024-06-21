@@ -7,7 +7,7 @@ import Loader from "../Loader";
 
 const Computers = ({ isMobile }) => {
 // Load the GLTF model
-const gltf = useLoader(GLTFLoader, 'src/public/desktop_pc/scene.gltf')
+const gltf = useLoader(GLTFLoader, '/desktop_pc/scene.gltf')
  
 
 // Return the mesh
