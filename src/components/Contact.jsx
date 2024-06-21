@@ -79,7 +79,7 @@ const Contact = () => {
       }}>Get in touch</p>
       <h3
       className={styles.sectionHeadText } style={{
-        marginTop:"19px"
+     
       }}>Contact.</h3>
       <form 
       ref={formRef}
