@@ -16,7 +16,7 @@ return (
 
 <primitive
   object={gltf.scene}
-  scale={1.5}
+  scale={2.0}
   position-y={0}
   rotation-y={0}
 
